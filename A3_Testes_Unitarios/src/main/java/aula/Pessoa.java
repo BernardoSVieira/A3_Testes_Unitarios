@@ -1,19 +1,29 @@
 package aula;
-import java.util.ArrayList;
 
+import java.util.ArrayList;
 
 public abstract class Pessoa {
     private String nome;
-    private ArrayList<Conta> listacontas;
-    public Pessoa(String nome, ArrayList<Conta> listacontas){
-        this. = -;
-        this.listacontas =  listacontas;
+    private ArrayList<Conta> listaContas;
+
+    public Pessoa(String nome, ArrayList<Conta> listaContas) {
+        this.nome = nome;
+        this.listaContas = listaContas;
     }
-    public ArrayList getListaContas(){
-        return this.listacontas;
+
+    public String getNome() {
+        return nome;
     }
-    public void setListaContas(Conta conta){
-        this.listacontas.add(conta);
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-    
+
+    public ArrayList<Conta> getListaContas() {
+        return listaContas;
+    }
+
+    public void setListaContas(Conta conta) {
+        this.listaContas.add(conta);
+    }
 }

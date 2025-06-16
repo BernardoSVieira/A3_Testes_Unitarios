@@ -1,17 +1,20 @@
 package aula;
+
 import java.util.ArrayList;
 
-public class PessoaJuridica extends Pessoa{
-    private int cnpj;
-    PessoaJuridica(String nome, ArrayList<Conta> listacontas, int cnpj){
-        super(nome, listacontas);
+public class PessoaJuridica extends Pessoa {
+    private long cnpj;
+
+    public PessoaJuridica(String nome, ArrayList<Conta> listaContas, long cnpj) {
+        super(nome, listaContas);
         this.cnpj = cnpj;
     }
-    public int getCnpj(){
-        return this.cnpj;
+
+    public long getCnpj() {
+        return cnpj;
     }
-    
-    public void setCnpj(int cnpj){
+
+    public void setCnpj(long cnpj) {
         this.cnpj = cnpj;
     }
 }

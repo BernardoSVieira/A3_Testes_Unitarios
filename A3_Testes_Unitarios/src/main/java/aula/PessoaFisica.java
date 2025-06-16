@@ -1,17 +1,20 @@
 package aula;
+
 import java.util.ArrayList;
 
-public class PessoaFisica extends Pessoa{
-    private int cpf;
-    PessoaFisica(String nome, ArrayList<Conta> listacontas, int cpf){
-        supersuper(nome, listacontas);
+public class PessoaFisica extends Pessoa {
+    private long cpf;
+
+    public PessoaFisica(String nome, ArrayList<Conta> listaContas, long cpf) {
+        super(nome, listaContas);
         this.cpf = cpf;
     }
-    public int getCpf(){
-        return t;;
+
+    public long getCpf() {
+        return cpf;
     }
-    
-    public void setCpf(int cpf){
+
+    public void setCpf(long cpf) {
         this.cpf = cpf;
     }
 }
