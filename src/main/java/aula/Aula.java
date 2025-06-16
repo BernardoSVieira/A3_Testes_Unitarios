@@ -18,7 +18,8 @@ public class Aula {
         ContaPoupanca c2;
         double salario, rendimento;
         ArrayList<Conta> listaContas = new ArrayList<>();
-
+        
+        String Numero_conta = "Número da conta: ";
         Agencia ag1 = new Agencia(1);
         Agencia ag2 = new Agencia(2);
         Agencia ag3 = new Agencia(3);
@@ -64,7 +65,7 @@ public class Aula {
                     rendimento = entrada.nextDouble();
                     c2 = new ContaPoupanca(random.nextInt(10000), rendimento, escolhaAgencia);
                     p1.setListaContas(c2);
-                    System.out.println("Número da conta: " + c2.getNumero());
+                    System.out.println(Numero_conta + c2.getNumero());
                     System.out.println("Número da agência: " + c2.getAgencia().getNumero());
                 }
                 break;
@@ -81,7 +82,7 @@ public class Aula {
                     salario = entrada.nextDouble();
                     c1 = new ContaCorrente(random.nextInt(10000), salario, escolhaAgencia);
                     p2.setListaContas(c1);
-                    System.out.println("Número da conta: " + c1.getNumero());
+                    System.out.println(Numero_conta + c1.getNumero());
                     System.out.println("Número da agência: " + c1.getAgencia().getNumero());
                 }
 
@@ -92,7 +93,7 @@ public class Aula {
                     rendimento = entrada.nextDouble();
                     c2 = new ContaPoupanca(random.nextInt(10000), rendimento, escolhaAgencia);
                     p2.setListaContas(c2);
-                    System.out.println("Número da conta: " + c2.getNumero());
+                    System.out.println(Numero_conta + c2.getNumero());
                     System.out.println("Número da agência: " + c2.getAgencia().getNumero());
                 }
                 break;
