@@ -1,3 +1,8 @@
+[![Github Actions Status for BernardoSVieira/A3_Testes_Unitarios](https://github.com/BernardoSVieira/A3_Testes_Unitarios/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/BernardoSVieira/A3_Testes_Unitarios/actions)  
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BernardoSVieira_A3_Testes_Unitarios)  
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)](https://sonarcloud.io/component_measures?id=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)
+
+
 # Testes Unitários e Refactoring
 * Este repositório contém as etapas e entregas relacionadas ao projeto Java solicitado, dividido em fases de desenvolvimento, testes e refatoração.
 * Este é um trabalho de A3 da unidade curricular: Gestão e Qualidade de Software da UNISUL, professora: Samara Leal.
@@ -65,9 +70,7 @@ O desenvolvimento do projeto está organizado nas seguintes fases:
 
 
 
-[![Github Actions Status for BernardoSVieira/A3_Testes_Unitarios](https://github.com/BernardoSVieira/A3_Testes_Unitarios/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/BernardoSVieira/A3_Testes_Unitarios/actions)  
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BernardoSVieira_A3_Testes_Unitarios)  
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)](https://sonarcloud.io/component_measures?id=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)
+
 
 
 
