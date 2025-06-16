@@ -63,11 +63,12 @@ O desenvolvimento do projeto está organizado nas seguintes fases:
   * Victor Hasse - RA: 10724111755 - GitHub: <a href="https://github.com/victorhasse">victorhasse</a><br>
   * Igor Vinicius Sotile Mirandolli - RA: 1072416369 - GitHub: <a href="https://github.com/IgorMirandolli">igormirandolli</a><br>
 
-<!--
-
-[![Github Actions Status for GuilhermeSchveitzer/A3_Gestao_Qualidade_de_Software](https://github.com/GuilhermeSchveitzer/A3_Gestao_Qualidade_de_Software/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/GuilhermeSchveitzer/A3_Gestao_Qualidade_de_Software/actions) 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GuilhermeSchveitzer_A3_Gestao_Qualidade_de_Software&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GuilhermeSchveitzer_A3_Gestao_Qualidade_de_Software)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=GuilhermeSchveitzer_A3_Gestao_Qualidade_de_Software&metric=coverage)](https://sonarcloud.io/component_measures?id=GuilhermeSchveitzer_A3_Gestao_Qualidade_de_Software&metric=coverage)
 
 
--->
+[![Github Actions Status for BernardoSVieira/A3_Testes_Unitarios](https://github.com/BernardoSVieira/A3_Testes_Unitarios/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/BernardoSVieira/A3_Testes_Unitarios/actions)  
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BernardoSVieira_A3_Testes_Unitarios)  
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)](https://sonarcloud.io/component_measures?id=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)
+
+
+
+
