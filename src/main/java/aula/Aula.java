@@ -97,7 +97,13 @@ public class Aula {
                     System.out.println(Numero_conta + c2.getNumero());
                     System.out.println(Numero_Agencia + c2.getAgencia().getNumero());
                 }
-                break;
+                break;      
+                
+                default:
+                    System.out.println("Opção inválida. Por favor, escolha 1 para Pessoa Jurídica ou 2 para Pessoa Física.");
+                
+                    break;
         }
     }
 }
+
