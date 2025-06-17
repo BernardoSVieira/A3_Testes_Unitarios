@@ -24,9 +24,10 @@ class TestConta {
         public void sacar(double valor) {
             super.sacar(valor);
         }
-
+        
         @Override
         public void imprimir() {
+        // Implementação vazia para teste
         }
     }
 
