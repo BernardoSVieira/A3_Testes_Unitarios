@@ -10,7 +10,6 @@ class TestConta {
     private Conta conta;
     private Agencia agencia;
 
-    // Classe concreta para teste
     static class ContaFake extends Conta {
         public ContaFake(int numero, Agencia agencia) {
             super(numero, agencia);
@@ -28,7 +27,6 @@ class TestConta {
 
         @Override
         public void imprimir() {
-            // Implementação vazia para teste
         }
     }
 
@@ -88,7 +86,7 @@ class TestConta {
     @Test
     void testSacarComSaldoInsuficiente() {
         conta.depositar(50.0);
-        conta.sacar(100.0); // Deve imprimir "Saldo insuficiente."
-        assertEquals(50.0, conta.getSaldo()); // Saldo não muda
+        conta.sacar(100.0); 
+        assertEquals(50.0, conta.getSaldo()); 
     }
 }
