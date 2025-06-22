@@ -1,4 +1,4 @@
-[![GitHub Actions Status](https://github.com/BernardoSVieira/A3_Testes_Unitarios/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/BernardoSVieira/A3_Testes_Unitarios/actions)  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BernardoSVieira_A3_Testes_Unitarios)  [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)](https://sonarcloud.io/summary/new_code?id=BernardoSVieira_A3_Testes_Unitarios)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BernardoSVieira_A3_Testes_Unitarios&metric=coverage)](https://sonarcloud.io/summary/new_code?id=BernardoSVieira_A3_Testes_Unitarios)
 
 
 
